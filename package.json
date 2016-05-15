@@ -1,8 +1,8 @@
 {
   "name": "tribute_page",
   "version": "1.0.0",
-  "description": "A tribute page to Cesar Chavez",
-  "main": "index.js",
+  "description": "A Tribute Page to Cesar Chavez",
+  "main": "src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,25 +11,27 @@
     "url": "git+https://github.com/fhergomez/TributePage.git"
   },
   "keywords": [
-    "tribute",
-    "chavez",
-    "nodejs",
-    "npm",
     "cesar",
-    "freecodecamp"
+    "chavez",
+    "tribute",
+    "page",
+    "mean",
+    "stack",
+    "angularJS",
+    "node.js",
+    "express.js",
+    "javascript",
+    "free",
+    "code",
+    "camp",
+    "front",
+    "end",
+    "development"
   ],
   "author": "Fernando Gomez",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/fhergomez/TributePage/issues"
   },
-  "homepage": "https://github.com/fhergomez/TributePage#readme",
-  "dependencies": {
-    "body-parser": "^1.15.1",
-    "ejs": "^2.4.1",
-    "express": "^4.13.4",
-    "pg": "^4.5.5",
-    "pg-hstore": "^2.3.2",
-    "sequelize": "^3.23.1"
-  }
+  "homepage": "https://github.com/fhergomez/TributePage#readme"
 }
