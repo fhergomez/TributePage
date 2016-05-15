@@ -4,13 +4,16 @@ var express = require('express');
 
 var app = express();
 
-var router = express.Router();
-
 app.use('/', express.static('public'));
 
-app.get('/api/tributes', function(req,res){
-  res.send('these are Mexico great tributes');
+var router = express.Router();
+
+router.get('/tributes', function(req,res){
+  res.json({todos: {}});
+  });
 });
+
+app.use('/api', router);
 
 app.listen(3000, function() {
   console.log('Your app is running on port 3000!');
