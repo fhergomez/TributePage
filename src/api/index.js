@@ -4,7 +4,7 @@ var express = require('express');
 var favorites = require('../../mock/favorites.json')
 var router = express.Router();
 
-router.get('/tributes', function(req,res){
+router.get('/favorites', function(req,res){
   res.json({favorites: favorites});
 });
 
