@@ -1,7 +1,7 @@
 {
   "name": "tribute_page",
   "version": "1.0.0",
-  "description": "A Tribute Page to Cesar Chavez",
+  "description": "A Tribute Page to famous mexicans",
   "main": "src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
