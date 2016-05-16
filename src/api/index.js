@@ -5,7 +5,7 @@ var favorites = require('../../mock/favorites.json')
 var router = express.Router();
 
 router.get('/tributes', function(req,res){
-  res.json({todos: {}});
+  res.json({favorites: favorites});
 });
 
 //TODO: add POST route to add favorite
