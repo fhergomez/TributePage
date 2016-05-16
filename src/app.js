@@ -10,8 +10,13 @@ var router = express.Router();
 
 router.get('/tributes', function(req,res){
   res.json({todos: {}});
-  });
 });
+
+//TODO: add POST route to add favorite
+
+//TODO: add PUT route to update existing entries
+
+//TODO: add DELETE route to delete entries
 
 app.use('/api', router);
 
